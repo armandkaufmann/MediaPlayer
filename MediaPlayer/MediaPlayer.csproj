@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\add.png" />
+    <None Remove="Resources\music-alt.png" />
+    <None Remove="Resources\pause.png" />
+    <None Remove="Resources\pencil.png" />
+    <None Remove="Resources\play.png" />
+    <None Remove="Resources\stop.png" />
+    <None Remove="Resources\video-file.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\music-alt.png" />
+    <Resource Include="Resources\pause.png" />
+    <Resource Include="Resources\pencil.png" />
+    <Resource Include="Resources\play.png" />
+    <Resource Include="Resources\stop.png" />
+    <Resource Include="Resources\video-file.png" />
+  </ItemGroup>
+
+</Project>
